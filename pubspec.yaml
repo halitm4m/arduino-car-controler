@@ -7,9 +7,10 @@ environment:
   sdk: '>=3.0.3 <4.0.0'
 
 dependencies:
+  bluetooth_classic: ^0.0.4
   flutter:
     sdk: flutter
-  flutter_bluetooth_serial: ^0.4.0
+
   stacked: ^3.4.0
   stacked_services: ^1.1.0
 
@@ -23,4 +24,6 @@ dev_dependencies:
   golden_toolkit: ^0.15.0
 
 flutter:
+  assets:
+    - assets/images/steering.png
   uses-material-design: true
